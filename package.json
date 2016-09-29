@@ -1,6 +1,6 @@
 {
   "name": "get-countries-info",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Get countries, states, currency, language, phone code, ISO standards, etc.",
   "main": "lib/indx.js",
   "scripts": {
