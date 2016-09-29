@@ -1,6 +1,6 @@
 let data = require('../data.json');
 
-export function countries(args, prop) {
+function countries(args, prop) {
     let query = {};
     args.name ? query.name = args.name : null;
     args.capital ? query.capital = args.capital : null;
@@ -56,4 +56,4 @@ export function countries(args, prop) {
     }
 }
 
-export countriesQuery from './graphql';
+export default countries;

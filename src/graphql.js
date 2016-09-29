@@ -1,5 +1,5 @@
 import {GraphQLList, GraphQLString, GraphQLObjectType, GraphQLInt} from 'graphql';
-import {countries} from './index';
+import countries from './index';
 
 let country = new GraphQLObjectType({
     name: 'country',

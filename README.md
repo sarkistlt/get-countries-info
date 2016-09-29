@@ -14,7 +14,7 @@ npm i -S get-countries-info
 
 ##vanilla-javaScript
 ~~~js
-import {countries} from 'get-countries-info';
+import countries from 'get-countries-info';
 
 countries(); //will return array of all countries with all fields
 countries({}, 'name'); //will return array of all countries name, note that you have to pass empty object as first argument
@@ -28,7 +28,7 @@ So if you want fetch and couple additional properties, you have to call this fun
 
 First argument is an object with queries, it supports following queries:
 ~~~js
-import {countries} from 'get-countries-info';
+import countries from 'get-countries-info';
 
 let query = {
         name: 'String', //country name
@@ -45,10 +45,12 @@ countries(query, 'provinces');or to get only 'provinces'
 
 ##graphQL
 
+####Make sure that your ```graphql``` package is the same version as used in ```mongoose-schema-to-graphql``` or vice versa.
+
 In your queries file:
 ~~~js
 import {GraphQLObjectType} from 'graphql';
-import {countriesQuery} from 'get-countries-info';
+import countriesQuery from 'get-countries-info/lib/graphql';
 
 let queries = new GraphQLObjectType({
     name: 'Query',
