@@ -1,8 +1,8 @@
 {
   "name": "get-countries-info",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get countries, states, currency, language, phone code, ISO standards, etc.",
-  "main": "lib/index.js",
+  "main": "lib/indx.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir lib",
     "prepublish": "npm run build"
@@ -39,6 +39,6 @@
     "babel-preset-stage-1": "^6.13.0"
   },
   "dependencies": {
-    "graphql": "^0.7.1"
+    "graphql": "^0.6.2"
   }
 }
