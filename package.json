@@ -1,0 +1,44 @@
+{
+  "name": "get-countries-info",
+  "version": "1.0.0",
+  "description": "Get countries, states, currency, language, phone code, ISO standards, etc.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarkistlt/get-countries-info.git"
+  },
+  "keywords": [
+    "data",
+    "country",
+    "iso",
+    "states",
+    "provinces",
+    "countries",
+    "state",
+    "province",
+    "ISO 3166-1-alpha-2",
+    "ISO 3166-1"
+  ],
+  "author": {
+    "name": "Sarkis Arutiunian (sarkis.tlt@gmail.com)"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarkistlt/get-countries-info/issues"
+  },
+  "homepage": "https://github.com/sarkistlt/get-countries-info#readme",
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-core": "6.9.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.13.0"
+  },
+  "dependencies": {
+    "graphql": "^0.7.1"
+  }
+}
