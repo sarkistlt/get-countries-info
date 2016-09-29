@@ -14,7 +14,7 @@ npm i -S get-countries-info
 
 ##vanilla-javaScript
 ~~~js
-import countries from 'get-countries-info';
+import countries from 'get-countries-info/lib';
 
 countries(); //will return array of all countries with all fields
 countries({}, 'name'); //will return array of all countries name, note that you have to pass empty object as first argument
@@ -28,7 +28,7 @@ So if you want fetch and couple additional properties, you have to call this fun
 
 First argument is an object with queries, it supports following queries:
 ~~~js
-import countries from 'get-countries-info';
+import countries from 'get-countries-info/lib';
 
 let query = {
         name: 'String', //country name
