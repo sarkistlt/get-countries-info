@@ -3,8 +3,8 @@ You can fetch only that fields which you need in sertan country all in all toget
 
 [data structure](#data-structure)
 
-Also you have to way how to use this package:
-1. [simple use, just import one function and fetch only that data which you need.](#vanilla-javaScript)
+Also you have to way how to use this package:</br>
+1. [simple use, just import one function and fetch only that data which you need.](#vanilla-javaScript)</br>
 2. [for advanced users, graphQL](#graphQL)
 
 ### Install
