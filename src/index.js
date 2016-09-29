@@ -1,6 +1,6 @@
 let data = require('../data.json');
 
-function countries(args, prop) {
+export default function (args, prop) {
     let query = {};
     args.name ? query.name = args.name : null;
     args.capital ? query.capital = args.capital : null;
@@ -55,5 +55,3 @@ function countries(args, prop) {
         return fetchedData;
     }
 }
-
-export default countries;
