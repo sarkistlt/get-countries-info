@@ -21,10 +21,10 @@ countries({}, 'name'); //will return array of all countries name, note that you 
 countries({ISO: 'USA'}, 'provinces'); //return array of all provinces in USA
 ~~~
 
-As you noted, first argument is query object, and second is a string name of property you want fetch.
+As you noted, first argument is query object, and second is a string name of property you want to fetch.
 Full [data structure](#data-structure) with all fields you'll see below.
-Also in [vanilla-javaScript](#vanilla-javaScript) mode, you can fetch only one specific property in one time or all together.
-So if you want fetch and couple additional properties, you have to call this function for each property, or you can use [graphQL](#graphQL) mode and in one query fetch all you need.
+Also in [vanilla-javaScript](#vanilla-javaScript) mode, you can fetch only one specific property at time or all together.
+So if you want to fetch couple additional properties, you have to call this function for each property, or you can use [graphQL](#graphQL) mode and in one query fetch all you need.
 
 First argument is an object with queries, it supports following queries:
 ~~~js
@@ -40,12 +40,12 @@ let query = {
 }
 countries(query); //to fetch all fields
 //or
-countries(query, 'provinces');or to get only 'provinces'
+countries(query, 'provinces'); //or to get only 'provinces'
 ~~~
 
 ##graphQL
 
-####Make sure that your ```graphql``` package is the same version as used in ```mongoose-schema-to-graphql``` or vice versa.
+####Make sure that your ```graphql``` package is the same version as used in ```get-countries-info``` or vice versa.
 
 In your queries file:
 ~~~js
@@ -63,8 +63,8 @@ let queries = new GraphQLObjectType({
 });
 ~~~
 
-And that's it! Now you can use graphQL language to query specific shape of object which you need.
-Query method support same variables as above: name: 'String', capital: ```'String', currency: 'String', region: 'String', language: 'String', ISO: 'String'```.
+And that's it! Now you can use graphQL to query specific shape of object you need.
+Query method support same variables as above: ```name: 'String', capital: 'String', currency: 'String', region: 'String', language: 'String', ISO: 'String'```.
  
 ###Example
 ~~~js
