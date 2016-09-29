@@ -1,5 +1,5 @@
 Collection of 231 countries with detailed, information, such a, 'languages', 'currencies', 'provinces', 'timezones' and etc. even link to "wiki".
-You can fetch only that fields which you need in specific country all in all together.
+You can fetch only that fields which you need in specific country only or all together.
 
 [data structure](#data-structure)
 
