@@ -69,7 +69,7 @@ Query method support same variables as above: ```name: 'String', capital: 'Strin
 ###Example
 ~~~js
 {
-  countries(ISO: "USA") {
+  getCountries(ISO: "USA") {
     name
     wiki
     population
