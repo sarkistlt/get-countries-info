@@ -87,7 +87,7 @@ Query method support same variables as above: ```name: 'String', capital: 'Strin
 ~~~js
 {
   "data": {
-    "countries": [
+    "getCountries": [
       {
         "name": "United States",
         "wiki": "http://en.wikipedia.org/wiki/united_states_of_america",
