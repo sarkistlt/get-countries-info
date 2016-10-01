@@ -1,3 +1,6 @@
+[![NPM](https://nodei.co/npm/get-countries-info.png?downloads=true)](https://nodei.co/npm/get-countries-info/)
+[![NPM](https://nodei.co/npm-dl/get-countries-info.png?months=3&height=2)](https://nodei.co/npm/get-countries-info/)
+
 Collection of 231 countries with detailed, information, such a, 'languages', 'currencies', 'provinces', 'timezones' and etc. even link to "wiki".
 You can fetch only that fields which you need in specific country only or all together.
 
