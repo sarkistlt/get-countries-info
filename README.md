@@ -39,7 +39,7 @@ let query = {
         currency: 'String',
         region: 'String',
         language: 'String',
-        ISO: 'String' //country ISO 3166-1 alpha-3 code
+        ISO: 'String' //country ISO 3166-1 alpha-3 or alpha-2 code
 }
 countries(query); //to fetch all fields
 //or
