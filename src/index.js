@@ -28,6 +28,7 @@ export default function (args, prop) {
         } else if (args.ISO) {
             argsCount++;
             if (country.ISO.alpha3 === args.ISO) result++;
+            else if (country.ISO.alpha2 === args.ISO) result++;
         } else if (args.language) {
             argsCount++;
             country.languages.forEach(prop => {
