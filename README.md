@@ -19,7 +19,7 @@ npm i -S get-countries-info
 ~~~js
 import countries from 'get-countries-info';
 
-countries(); //will return array of all countries with all fields
+countries({}); //will return array of all countries with all fields
 countries({}, 'name'); //will return array of all countries name, note that you have to pass empty object as first argument
 countries({ISO: 'USA'}, 'provinces'); //return array of all provinces in USA
 ~~~
